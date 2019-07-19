@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour {
 			{
 				motor.MoveToPoint(hit.point);
 
-				// Stop focusing any objects
 			}
 		}
 
@@ -38,8 +37,7 @@ public class PlayerController : MonoBehaviour {
 
 			if (Physics.Raycast(ray, out hit, 100))
 			{
-				// Check if we hit an interactable
-				// If we did set it as our focus
+
 			}
 		}
 	}
